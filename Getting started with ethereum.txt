@@ -1,0 +1,23 @@
+To get started with first clone the ethereum project for golang and set it up using the guide:
+
+git clone <link>
+cd go-ethereum
+git checkout tags/v<latest version> -b <some name>
+
+// Install golang
+
+"make all" in the go-ethereum directory
+
+Now the next step is to create a genesis block(the first block):
+
+mkdir <some name>
+cd 
+gedit <some name>.json for your genesis block to define properties
+the json file contains properties like timestamp, difficulty, parenthash, coinabse etc to setup the block accordingly
+Inittialise the blockchain using init .json file that was created earlier
+start the geth console`
+
+That is it your blockchain dev setup is done.
+
+Now once you run the geth console you will see the terminal show arrow to run commands.
+These commands are ethereum developed commands to perform certain operation which you can run to perform different operations on the blocks.
